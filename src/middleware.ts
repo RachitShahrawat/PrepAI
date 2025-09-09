@@ -5,6 +5,7 @@ import { env } from './data/env/server'
 const isPublicRoute = createRouteMatcher([
   "/sign-in(.*)",
   "/",
+   "/api/webhooks(.*)"
 ])
 
 const aj = arcjet({
